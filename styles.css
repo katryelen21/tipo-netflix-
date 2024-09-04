@@ -3,6 +3,7 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter'
 }
 
 body {
@@ -23,4 +24,19 @@ body {
 
 .container {
     height: 100vh;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.container__botão { 
+background-color: var(--botao-azul);
+border-radius: 5px;
+padding: 1em;
+color: var(--branco-principal);
+display: block;
+}
+
+.botao_secuntario{ 
+background-color: transparent;
+border: 2px solid var(--branco-principal);
 }
